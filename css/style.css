@@ -1,0 +1,210 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#title{
+    background-color: palevioletred;
+}
+
+.container-fuild{
+    padding: 3% 15% 7%;
+}
+h1{
+    font-family:  Helvetica, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 800;
+    
+}
+h4{
+    font-size: 3.5rem;
+    font-family: cursive;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+a:hover{
+    color:black;
+}
+.navbar{
+    margin-bottom: 5%;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+}
+.ip{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+.butt{
+    margin: 5% 3% 5% 0;
+}
+
+/**********features*********/
+
+.features{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+
+}
+.features p{
+    color: gray;
+}
+.icons{
+    color: palevioletred;
+    padding-bottom: 10px;
+}
+
+   
+
+/***********testimonial-section*********/
+
+#about{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: palevioletred;
+    color: white;
+
+}
+.eddy-img{
+    width: 40%;
+    border-radius: 100%;
+    padding: 20px;
+}
+#press{
+    background-color: palevioletred;
+    text-align: center;
+    padding-bottom: 3%;
+    
+    
+    
+}
+.press-logo{
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+/************design*******/
+.code{
+    background: url(../images/code.jpg)no-repeat;
+    background-size: cover;
+    min-height: 450px;
+    text-align: center;
+    padding-top: 20%;
+    color: palevioletred;
+}
+.computer{
+    background: url(../images/computer.jpg)no-repeat;
+    background-size: cover;
+    min-height: 450px;
+    padding-top: 20%;
+    color: black;
+    text-align: center;
+    
+}
+.water{
+    background: url(../images/water.jpg)no-repeat;
+    background-size: cover;
+    min-height: 450px;
+    padding-top:5% ;
+    color:white;
+    text-align: center;
+}
+/************services***********/
+
+#services{
+    padding: 7% 15%;
+    text-align: center;
+}
+.icon1{
+    color: palevioletred;
+}
+.row p{
+    color: gray;
+}
+.row h3{
+    padding: 10px;
+    font-size: 1.2rem;
+}
+/********quote**********/
+
+#quote{
+    background-color: palevioletred;
+    padding: 7% 20%;
+    text-align: center;
+}
+.for{
+    text-align: center;
+    padding: 20px;
+}
+
+::placeholder{
+    color:black;
+
+
+}
+/************prices***********/
+
+#prices{
+    padding: 100px;
+    text-align: center;
+}
+
+
+@media(max-width:1028px) {
+    #title{
+        text-align: center;
+    }
+    
+    
+    .ip{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+    .foot-logo{
+        text-align: center;
+        padding:8% 0; 
+    }
+    .features{
+        padding: 9% 13%;
+        
+
+    }
+    .services{
+        padding: 9% 13%;
+    }
+    
+        
+    
+}
+
+#footer{
+    background-color: palevioletred;
+    padding: 7% 15%;
+}
+.fot{
+    padding-right: 50px;
+}
+.foot-logo{
+    text-align: center;
+    padding-bottom: 5%;
+    
+}
+.foot-logo:hover{
+    color: black;
+    font-size: larger;
+}
+.form{
+    color:black;
+}
+.form:hover{
+    color: #fff;
+}
+.foot{
+    text-align: center;
+}
